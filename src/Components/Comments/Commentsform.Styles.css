@@ -1,0 +1,65 @@
+.formsection {
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    border: 0.1rem solid rgb(155, 155, 155);
+    padding: 3rem;
+    border-radius: 1rem;
+    width: 80%; 
+    max-width: 600px; 
+    margin: 2rem auto; 
+    background-color: rgb(242, 246, 248);
+  }
+  
+  .cmt-btn {
+    background-color: rgb(50, 64, 109);
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    width: 100%; 
+    max-width: 150px; 
+    border-radius: 0.5rem;
+    padding: 0.5rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  .cmt-btn:hover {
+    background-color: black;
+  }
+  
+  .txt {
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%; 
+    max-width: 400px; 
+    font-size: large;
+  }
+  
+
+  @media (max-width: 768px) {
+    .formsection {
+      width: 90%; 
+    }
+  
+    .txt {
+      width: 100%;
+    }
+  
+    .cmt-btn {
+      width: 100%; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .formsection {
+      padding: 2rem; 
+    }
+  
+    .txt {
+      font-size: medium; 
+    }
+  }
+  
